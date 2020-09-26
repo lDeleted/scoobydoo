@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "scooby"
+    }
+  },
+  "defaultProject": "scooby",
+  "cli": {
+    "analytics": false
+  }
 }

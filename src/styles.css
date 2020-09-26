@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.ahorcado-img{
+   height: 400px;
+}
+
+button{
+   margin-top: 5px;
+   margin-left: 5px;
+}
+
+div.words, div.carryOn{
+   margin-bottom: 23px;
+}
