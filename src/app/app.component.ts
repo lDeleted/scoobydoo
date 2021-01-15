@@ -1,21 +1,12 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-root',
-//   templateUrl: './app.component.html',
-//   styleUrls: ['./app.component.css']
-// })
-// export class AppComponent {
-//   title = 'scooby';
-// }
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+
   palabra = 'GRACIAS';
   palabraOculta = '';
   intentos = 0;
