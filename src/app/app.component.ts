@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  palabra = 'GRACIAS';
+  palabra = 'DEEP WEB';
   palabraOculta = '';
   intentos = 0;
 
@@ -96,7 +96,7 @@ export class AppComponent {
 
   stillPlaying(){
 
-    this.palabra = 'GRACIAS';
+    this.palabra = 'RICARDO';
     this.intentos = 0;
     this.gano = false;
     this.perdio = false;
