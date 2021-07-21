@@ -1,3 +1,5 @@
+console.log("guaaa");
+
 let audio = new Audio('./song.mp3');
 
 let ltr = document.querySelectorAll('.ltr');

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as FriendCard from '../assets/main';
+// import * as main from '../assets/main';
 
 @Component({
   selector: 'app-root',
