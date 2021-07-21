@@ -17,7 +17,7 @@
     console.log("gua");
     let audio = new Audio('assets/song.mp3');
     let ltr = document.querySelectorAll('.btn');
-    ltr.forEach(i => { i.addEventListener('click', function(){ console.log("coño"); }); console.log("coño"); });
+    ltr.forEach(i => { i.addEventListener('click', function(){ audio.play(); }); console.log("coño"); });
   });
 </script>
 </html>
