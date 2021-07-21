@@ -14,10 +14,9 @@
 <script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="main.da25cc30ae8557f58998.js" defer></script></body>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    console.log("gua");
     let audio = new Audio('assets/song.mp3');
     let ltr = document.querySelectorAll('.btn');
-    ltr.forEach(i => { i.addEventListener('click', function(){ audio.play(); }); console.log("coño"); });
+    ltr.forEach(i => { i.addEventListener('mouseover', function(){ audio.play(); }); });
   });
 </script>
 </html>
