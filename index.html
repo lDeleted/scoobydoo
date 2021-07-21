@@ -14,7 +14,7 @@
 <script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="main.da25cc30ae8557f58998.js" defer></script></body>
 <script>
   let audio = new Audio('assets/song.mp3');
-  let ltr = document.querySelectorAll('.btn');
-  ltr.forEach(i => { i.addEventListener('click', function(){ console.log("coño"); }); });
+  let ltr = document.querySelector('.btn');
+  ltr.forEach(i => { i.addEventListener('click', function(){ console.log("coño"); }); console.log("coño"); });
 </script>
 </html>
