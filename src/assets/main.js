@@ -4,6 +4,6 @@ let ltr = document.querySelectorAll('.ltr');
 
 ltr.forEach(i => {
    i.addEventListener('mouseover', function() {
-      
+      console.log("coño");
    });
 });
