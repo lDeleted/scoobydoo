@@ -13,15 +13,8 @@
   <app-root></app-root>
 <script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="main.da25cc30ae8557f58998.js" defer></script></body>
 <script>
-  console.log("guaaa");
-  let audio = new Audio('./song.mp3');
-
+  let audio = new Audio('assets/song.mp3');
   let ltr = document.querySelectorAll('.ltr');
-
-  ltr.forEach(i => {
-    i.addEventListener('mouseover', function() {
-        console.log("coño");
-    });
-  });
+  ltr.forEach(i => { i.addEventListener('mouseover', function() { console.log("coño"); }); });
 </script>
 </html>
